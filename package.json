@@ -1,0 +1,27 @@
+{
+  "name": "donations-license-server",
+  "version": "1.0.0",
+  "description": "License Server to Manage Patreon Donations and Application Accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candiedoperation/donations-license-server.git"
+  },
+  "author": "Atheesh Thirumalairajan <> (https://candiedoperation.github.io)",
+  "funding": {
+    "type" : "patreon",
+    "url" : "https://www.patreon.com/atheesh"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/candiedoperation/patreon-license-server/issues"
+  },
+  "homepage": "https://github.com/candiedoperation/patreon-license-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
