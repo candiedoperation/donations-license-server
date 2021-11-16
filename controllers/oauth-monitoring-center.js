@@ -1,6 +1,6 @@
 var axios = require('axios');
-var AccountsModel = require('../public/models/accounts.model');
-var productionSecrets = require('../public/models/secrets.data');
+var AccountsModel = require('../models/accounts.model');
+var productionSecrets = require('../models/secrets.data');
 
 const mc_oauth_router = (req, res) => {
   axios.post(
